@@ -1,0 +1,519 @@
+{
+  "config": "{\"version\":\"5.53\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU02\",\"version\":\"5.53\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Car_Sales_Background_1007176901820082238.jpg",
+            "path": "Car_Sales_Background_1007176901820082238.jpg",
+            "type": 100
+          },
+          {
+            "name": "Car_Sales_Background_245798441205570484.jpg",
+            "path": "Car_Sales_Background_245798441205570484.jpg",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU02",
+            "path": "BaseThemes/CY24SU02.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Car Sales Background 1.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Car_Sales_Background_1007176901820082238.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"displayArea\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Middle'\"}}}}}],\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"181L\"}}}}}]}}",
+      "displayName": "PBI Project 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"073e28b72b1450c8a6f0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":325.37313432835816,\"y\":55.22388059701492,\"z\":1000,\"width\":86.56716417910447,\"height\":55.22388059701492,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.SALESDIFFERENCE\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"SALESDIFFERENCE\"},\"Name\":\"Car Sales.SALESDIFFERENCE\",\"NativeReferenceName\":\"SALESDIFFERENCE\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"SALESDIFFERENCE\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0BE21D'\"}}}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.22,
+          "width": 86.57,
+          "x": 325.37,
+          "y": 55.22,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"0cd1eec47dae4c5b4fd8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":74.28571428571429,\"y\":0.40816326530611086,\"z\":1000,\"width\":84.28571428571429,\"height\":57.142857142857146,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Insight\",\"textStyle\":{\"fontSize\":\"12pt\",\"color\":\"#12239e\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}},\"parentGroupName\":\"db9eea4fc7e3e40bd9f5\"}",
+          "filters": "[]",
+          "height": 57.14,
+          "width": 84.29,
+          "x": 74.29,
+          "y": 0.41,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"211b2d2a465602e19f27\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":189.33602602939527,\"z\":19000,\"width\":169.11567373499383,\"height\":49.6317738135308,\"tabOrder\":23000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true,\"objects\":{\"text\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 49.63,
+          "width": 169.12,
+          "x": 0.00,
+          "y": 189.34,
+          "z": 19000.00
+        },
+        {
+          "config": "{\"name\":\"233eb502463b4da1310c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":411.94029850746267,\"y\":55.22388059701492,\"z\":2000,\"width\":105.97014925373134,\"height\":55.22388059701492,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.YEARONYEARGROTH\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YEARONYEARGROTH\"},\"Name\":\"Car Sales.YEARONYEARGROTH\",\"NativeReferenceName\":\"YEARONYEARGROTH\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YEARONYEARGROTH\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0BE21D'\"}}}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.22,
+          "width": 105.97,
+          "x": 411.94,
+          "y": 55.22,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"37656d798eaee92e21a1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":124.99854145629979,\"z\":18000,\"width\":150.73353528553798,\"height\":49.6317738135308,\"tabOrder\":18000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Menu\",\"textStyle\":{\"fontSize\":\"12pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 49.63,
+          "width": 150.73,
+          "x": 0.00,
+          "y": 125.00,
+          "z": 18000.00
+        },
+        {
+          "config": "{\"name\":\"39af61e3fe4492ca9c36\",\"layouts\":[{\"id\":0,\"position\":{\"x\":158.08639066532032,\"y\":69.85212610793224,\"z\":0,\"width\":167.27745989004825,\"height\":84.55783686749692,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"CALENDAR.YTDSALES\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"CALENDAR\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTDSALES\"},\"Name\":\"CALENDAR.YTDSALES\",\"NativeReferenceName\":\"YTDSALES\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTDSALES\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Year to Date Sales'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 84.56,
+          "width": 167.28,
+          "x": 158.09,
+          "y": 69.85,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"3a73597144fc945480d8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":270.217435207001,\"z\":20000,\"width\":169.11567373499383,\"height\":60.66105688320431,\"tabOrder\":19000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.Body Style\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Body Style\"},\"Name\":\"Car Sales.Body Style\",\"NativeReferenceName\":\"Body Style\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.4}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 60.66,
+          "width": 169.12,
+          "x": 0.00,
+          "y": 270.22,
+          "z": 20000.00
+        },
+        {
+          "config": "{\"name\":\"49e95801b0dc77c769cd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":587.1428571428572,\"z\":23000,\"width\":170,\"height\":75.71428571428572,\"tabOrder\":22000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.Engine\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Engine\"},\"Name\":\"Car Sales.Engine\",\"NativeReferenceName\":\"Engine\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.4}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 75.71,
+          "width": 170.00,
+          "x": 0.00,
+          "y": 587.14,
+          "z": 23000.00
+        },
+        {
+          "config": "{\"name\":\"4bcef88f6505c9a49ae5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":187.49781218444969,\"y\":161.7628183552115,\"z\":8000,\"width\":454.03881970155953,\"height\":251.83529675754517,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"areaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"CALENDAR.WEEK\",\"active\":true}],\"Y\":[{\"queryRef\":\"CALENDAR.Total Sales\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c1\",\"Entity\":\"CALENDAR\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"Total Sales\"},\"Name\":\"CALENDAR.Total Sales\",\"NativeReferenceName\":\"Total Sales\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"WEEK\"},\"Name\":\"CALENDAR.WEEK\",\"NativeReferenceName\":\"WEEK\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"Total Sales\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"start\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"end\":{\"expr\":{\"Literal\":{\"Value\":\"53D\"}}},\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"lineStyles\":[{\"properties\":{\"areaShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showMarker\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"markerSize\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}},\"markerColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.6}}}}}}}],\"dataPoint\":[{\"properties\":{\"showAllDataPoints\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"CALENDAR\"}},\"Property\":\"WEEK\"}},\"Right\":{\"Literal\":{\"Value\":\"36L\"}}}}}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'YTD Sales Weekly Data'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter91739b83cbf270115ec3\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"CALENDAR\"}},\"Property\":\"YEAR\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"CALENDAR\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YEAR\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"2023L\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "height": 251.84,
+          "width": 454.04,
+          "x": 187.50,
+          "y": 161.76,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"53b5d30e1ffcded038c5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1016.4179104477612,\"y\":59.70149253731343,\"z\":14000,\"width\":113.43283582089552,\"height\":47.76119402985074,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.Car Sold Difference 1\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Car Sold Difference 1\"},\"Name\":\"Car Sales.Car Sold Difference 1\",\"NativeReferenceName\":\"Car Sold Difference 1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Car Sold Difference 1\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Conditional\":{\"Cases\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Car Sales\"}},\"Property\":\"Car Sold Difference Colour\"}},\"Right\":{\"Literal\":{\"Value\":\"'Red'\"}}},\"Annotations\":{\"PowerBI.SQExprEvaluationKind\":1,\"PowerBI.SQExprTextOperatorOption\":2}},\"Value\":{\"Literal\":{\"Value\":\"'#D90B1C'\"}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Car Sales\"}},\"Property\":\"Car Sold Difference Colour\"}},\"Right\":{\"Literal\":{\"Value\":\"'Green'\"}}},\"Annotations\":{\"PowerBI.SQExprEvaluationKind\":1,\"PowerBI.SQExprTextOperatorOption\":2}},\"Value\":{\"Literal\":{\"Value\":\"'#09F530'\"}}}]}}}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000D\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 47.76,
+          "width": 113.43,
+          "x": 1016.42,
+          "y": 59.70,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"829e19b3d4b12476e6c9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":373.1574105239538,\"z\":21000,\"width\":169.11567373499383,\"height\":55.146415348367555,\"tabOrder\":20000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.Dealer_Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Dealer_Name\"},\"Name\":\"Car Sales.Dealer_Name\",\"NativeReferenceName\":\"Dealer_Name\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.4}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.15,
+          "width": 169.12,
+          "x": 0.00,
+          "y": 373.16,
+          "z": 21000.00
+        },
+        {
+          "config": "{\"name\":\"85569a3bea59b0996581\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":480.00000000000006,\"z\":22000,\"width\":170,\"height\":70,\"tabOrder\":21000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.Transmission\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Transmission\"},\"Name\":\"Car Sales.Transmission\",\"NativeReferenceName\":\"Transmission\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"header\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.4}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 70.00,
+          "width": 170.00,
+          "x": 0.00,
+          "y": 480.00,
+          "z": 22000.00
+        },
+        {
+          "config": "{\"name\":\"8614441348c7e782f248\",\"layouts\":[{\"id\":0,\"position\":{\"x\":681.9773364748121,\"y\":60.66105688320431,\"z\":6000,\"width\":123.1603276113542,\"height\":33.08784920902053,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.AVG PRICE DIFFERENCE\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"AVG PRICE DIFFERENCE\"},\"Name\":\"Car Sales.AVG PRICE DIFFERENCE\",\"NativeReferenceName\":\"AVG PRICE DIFFERENCE\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"AVG PRICE DIFFERENCE\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0}}}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 33.09,
+          "width": 123.16,
+          "x": 681.98,
+          "y": 60.66,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"8951a9480b507f6256da\",\"layouts\":[{\"id\":0,\"position\":{\"x\":325.37313432835816,\"y\":95.52238805970148,\"z\":3000,\"width\":222.38805970149252,\"height\":55.22388059701492,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.MTD KPI\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"MTD KPI\"},\"Name\":\"Car Sales.MTD KPI\",\"NativeReferenceName\":\"MTD KPI\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A21CB4'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.22,
+          "width": 222.39,
+          "x": 325.37,
+          "y": 95.52,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"8a434aff1948093321ae\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1129.8507462686566,\"y\":59.70149253731343,\"z\":15000,\"width\":117.91044776119402,\"height\":44.776119402985074,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.Car Sold %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Car Sold %\"},\"Name\":\"Car Sales.Car Sold %\",\"NativeReferenceName\":\"Car Sold %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Car Sold %\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Conditional\":{\"Cases\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Car Sales\"}},\"Property\":\"Car Sold Difference Colour\"}},\"Right\":{\"Literal\":{\"Value\":\"'Red'\"}}},\"Annotations\":{\"PowerBI.SQExprEvaluationKind\":1,\"PowerBI.SQExprTextOperatorOption\":2}},\"Value\":{\"Literal\":{\"Value\":\"'#D90B1C'\"}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Car Sales\"}},\"Property\":\"Car Sold Difference Colour\"}},\"Right\":{\"Literal\":{\"Value\":\"'Green'\"}}},\"Annotations\":{\"PowerBI.SQExprEvaluationKind\":1,\"PowerBI.SQExprTextOperatorOption\":2}},\"Value\":{\"Literal\":{\"Value\":\"'#09F530'\"}}}]}}}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000D\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 44.78,
+          "width": 117.91,
+          "x": 1129.85,
+          "y": 59.70,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"8e63ce148beaffd7c73e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":976.0915516661057,\"y\":161.7628183552115,\"z\":10000,\"width\":303.30528441602155,\"height\":251.83529675754517,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CALENDAR.YTD Cars Sold\"}],\"Category\":[{\"queryRef\":\"Car Sales.Color\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"CALENDAR\",\"Type\":0},{\"Name\":\"c1\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Cars Sold\"},\"Name\":\"CALENDAR.YTD Cars Sold\",\"NativeReferenceName\":\"YTD Cars Sold\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"Color\"},\"Name\":\"Car Sales.Color\",\"NativeReferenceName\":\"Color\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Cars Sold\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Car Sales\"}},\"Property\":\"Color\"}},\"Right\":{\"Literal\":{\"Value\":\"'Pale White'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Car Sales\"}},\"Property\":\"Color\"}},\"Right\":{\"Literal\":{\"Value\":\"'Black'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#EF030F'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Car Sales\"}},\"Property\":\"Color\"}},\"Right\":{\"Literal\":{\"Value\":\"'Red'\"}}}}}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 251.84,
+          "width": 303.31,
+          "x": 976.09,
+          "y": 161.76,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"9c6fd265510e6e477ad5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":804.8491542975491,\"y\":60.44321712115982,\"z\":12000,\"width\":101.7991025198481,\"height\":38.17466344494304,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.AVG Price %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"AVG Price %\"},\"Name\":\"Car Sales.AVG Price %\",\"NativeReferenceName\":\"AVG Price %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"AVG Price %\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0}}}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 38.17,
+          "width": 101.80,
+          "x": 804.85,
+          "y": 60.44,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"aace5302135a90f49a77\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":47.142857142857146,\"z\":17000,\"width\":158.57142857142858,\"height\":57.142857142857146,\"tabOrder\":17000}}],\"singleVisualGroup\":{\"displayName\":\"Group 1\",\"groupMode\":0,\"objects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}}}}]}}}",
+          "height": 57.14,
+          "width": 158.57,
+          "x": 0.00,
+          "y": 47.14,
+          "z": 17000.00
+        },
+        {
+          "config": "{\"name\":\"b40ced470203cd5064b0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1036.75260854931,\"y\":97.42533378211601,\"z\":16000,\"width\":231.61494446314373,\"height\":55.146415348367555,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.PYTD Car Sold KPI\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"PYTD Car Sold KPI\"},\"Name\":\"Car Sales.PYTD Car Sold KPI\",\"NativeReferenceName\":\"PYTD Car Sold KPI\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A21CB4'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.15,
+          "width": 231.61,
+          "x": 1036.75,
+          "y": 97.43,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"b78160154b948c51d39c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":670.9480534051386,\"y\":161.7628183552115,\"z\":9000,\"width\":305.14349826096714,\"height\":251.83529675754517,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CALENDAR.Total Sales\"}],\"Category\":[{\"queryRef\":\"Car Sales.Body Style\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c1\",\"Entity\":\"Car Sales\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"CALENDAR\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"Body Style\"},\"Name\":\"Car Sales.Body Style\",\"NativeReferenceName\":\"Body Style\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Total Sales\"},\"Name\":\"CALENDAR.Total Sales\",\"NativeReferenceName\":\"Total Sales\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Total Sales\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 251.84,
+          "width": 305.14,
+          "x": 670.95,
+          "y": 161.76,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"bec325e7e23b3ebc2ce5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":671.4285714285714,\"y\":452.8571428571429,\"z\":7000,\"width\":608.5714285714286,\"height\":267.14285714285717,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"Car Sales.Company\",\"active\":true}],\"Values\":[{\"queryRef\":\"Car Sales.YTDATEAVERAGEPRICE\"},{\"queryRef\":\"CALENDAR.YTD Cars Sold\"},{\"queryRef\":\"Car Sales.YTD Total Sale\"},{\"queryRef\":\"Divide(Car Sales.YTD Total Sale, ScopedEval(Car Sales.YTD Total Sale, []))\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0},{\"Name\":\"c1\",\"Entity\":\"CALENDAR\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Company\"},\"Name\":\"Car Sales.Company\",\"NativeReferenceName\":\"Company\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Average Price\"},\"Name\":\"Car Sales.YTDATEAVERAGEPRICE\",\"NativeReferenceName\":\"YTD Average Price\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"YTD Cars Sold\"},\"Name\":\"CALENDAR.YTD Cars Sold\",\"NativeReferenceName\":\"YTD Cars Sold\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Total Sale\"},\"Name\":\"Car Sales.YTD Total Sale\",\"NativeReferenceName\":\"YTD Total Sale\"},{\"Arithmetic\":{\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Total Sale\"}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Total Sale\"}},\"Scope\":[]}},\"Operator\":3},\"Name\":\"Divide(Car Sales.YTD Total Sale, ScopedEval(Car Sales.YTD Total Sale, []))\",\"NativeReferenceName\":\"%GT YTD Total Sale\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Average Price\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"subTotals\":[{\"properties\":{\"rowSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"columnSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"values\":[{\"properties\":{}}],\"columnFormatting\":[{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000D\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}},\"styleHeader\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.2}}}}},\"styleTotal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"metadata\":\"Car Sales.YTDATEAVERAGEPRICE\"}},{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000000D\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}},\"styleTotal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"metadata\":\"Car Sales.YTD Total Sale\"}},{\"properties\":{\"dataBars\":{\"positiveColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E66C37'\"}}}}},\"negativeColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#f5c4af'\"}}}}},\"axisColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'foreground'\"}}}}},\"reverseDirection\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"hideText\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"totalMatchingOption\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.2}}}}},\"styleTotal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"metadata\":\"CALENDAR.YTD Cars Sold\"}},{\"properties\":{\"dataBars\":{\"positiveColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}},\"negativeColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'minColor'\"}}}}},\"axisColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E044A7'\"}}}}},\"reverseDirection\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"hideText\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"totalMatchingOption\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}},\"styleTotal\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"metadata\":\"Divide(Car Sales.YTD Total Sale, ScopedEval(Car Sales.YTD Total Sale, []))\"}}],\"rowHeaders\":[{\"properties\":{}}],\"columnHeaders\":[{\"properties\":{}}],\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"156.7586944001885D\"}}}},\"selector\":{\"metadata\":\"Car Sales.Company\"}},{\"properties\":{},\"selector\":{\"metadata\":\"Car Sales.YTD Total Sale\"}},{\"properties\":{},\"selector\":{\"metadata\":\"CALENDAR.YTD Cars Sold\"}}]},\"vcObjects\":{\"visualTooltip\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.2}}}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Company Wise Sales Trend'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'BoldHeader'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 267.14,
+          "width": 608.57,
+          "x": 671.43,
+          "y": 452.86,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"c2791c30635d0e48fd24\",\"layouts\":[{\"id\":0,\"position\":{\"x\":448.82576012565914,\"y\":0,\"z\":24000,\"width\":382.3484797486817,\"height\":42.27891843374846,\"tabOrder\":24000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Car Sales Dash Board\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"16pt\",\"color\":\"#ffffff\"}},{\"value\":\"Car Sales Dash Board\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"16pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.2}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 42.28,
+          "width": 382.35,
+          "x": 448.83,
+          "y": 0.00,
+          "z": 24000.00
+        },
+        {
+          "config": "{\"name\":\"d55b32057bc62889565a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":187.69209527096996,\"y\":453.32412840869864,\"z\":11000,\"width\":453.32412840869864,\"height\":251.31653434587503,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Category\":[{\"queryRef\":\"Car Sales.Dealer_Region\",\"active\":true}],\"Size\":[{\"queryRef\":\"CALENDAR.Total Sales\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0},{\"Name\":\"c1\",\"Entity\":\"CALENDAR\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Dealer_Region\"},\"Name\":\"Car Sales.Dealer_Region\",\"NativeReferenceName\":\"Dealer_Region\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"Total Sales\"},\"Name\":\"CALENDAR.Total Sales\",\"NativeReferenceName\":\"Total Sales\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"mapStyles\":[{\"properties\":{\"mapTheme\":{\"expr\":{\"Literal\":{\"Value\":\"'canvasDark'\"}}}}}],\"bubbles\":[{\"properties\":{\"bubbleSize\":{\"expr\":{\"Literal\":{\"Value\":\"11L\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 251.32,
+          "width": 453.32,
+          "x": 187.69,
+          "y": 453.32,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"d87149f1773393c4c1e6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":928.2979916975205,\"y\":55.146415348367555,\"z\":13000,\"width\":108.45461685178952,\"height\":97.42533378211601,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"CALENDAR.YTD Cars Sold\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"CALENDAR\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Cars Sold\"},\"Name\":\"CALENDAR.YTD Cars Sold\",\"NativeReferenceName\":\"YTD Cars Sold\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Cars Sold\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'YTD Car Sold'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 97.43,
+          "width": 108.45,
+          "x": 928.30,
+          "y": 55.15,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"db9eea4fc7e3e40bd9f5\",\"layouts\":[{\"id\":0,\"position\":{\"height\":57.551020408163254,\"width\":158.57142857142858,\"x\":0,\"y\":0,\"z\":16004,\"tabOrder\":16003}}],\"singleVisualGroup\":{\"displayName\":\"Group 2\",\"groupMode\":0},\"parentGroupName\":\"aace5302135a90f49a77\"}",
+          "height": 57.55,
+          "width": 158.57,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 16004.00
+        },
+        {
+          "config": "{\"name\":\"e3232c17a2306ca8fc72\",\"layouts\":[{\"id\":0,\"position\":{\"x\":688.0597014925373,\"y\":97.01492537313432,\"z\":5000,\"width\":234.32835820895522,\"height\":55.22388059701492,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.MTDAVGKPI\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"MTDAVGKPI\"},\"Name\":\"Car Sales.MTDAVGKPI\",\"NativeReferenceName\":\"MTDAVGKPI\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A21CB4'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.22,
+          "width": 234.33,
+          "x": 688.06,
+          "y": 97.01,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"f6e2911604018450dcec\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":74.28571428571429,\"height\":57.142857142857146,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Sales\",\"textStyle\":{\"fontSize\":\"12pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.1}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}},\"parentGroupName\":\"db9eea4fc7e3e40bd9f5\"}",
+          "filters": "[]",
+          "height": 57.14,
+          "width": 74.29,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"fb9008f78f1071834430\",\"layouts\":[{\"id\":0,\"position\":{\"x\":549.62593963873,\"y\":68.01391226298665,\"z\":4000,\"width\":121.32211376640862,\"height\":88.23426455738809,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.YTDATEAVERAGEPRICE\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Average Price\"},\"Name\":\"Car Sales.YTDATEAVERAGEPRICE\",\"NativeReferenceName\":\"YTD Average Price\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Average Price\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'YTD Average Price'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 88.23,
+          "width": 121.32,
+          "x": 549.63,
+          "y": 68.01,
+          "z": 4000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Car Sales Background 2.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Car_Sales_Background_245798441205570484.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"displayArea\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Middle'\"}}}}}],\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"181L\"}}}}}]}}",
+      "displayName": "Duplicate of PBI Project 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection0212b613b806c6fdac4c",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0012b350ec58657c913f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":925.7142857142858,\"y\":44.28571428571429,\"z\":8000,\"width\":110,\"height\":97.14285714285715,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"CALENDAR.YTD Cars Sold\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"CALENDAR\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Cars Sold\"},\"Name\":\"CALENDAR.YTD Cars Sold\",\"NativeReferenceName\":\"YTD Cars Sold\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Cars Sold\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'YTD Car Sold'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 97.14,
+          "width": 110.00,
+          "x": 925.71,
+          "y": 44.29,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"069f5f455e6ebe3d7ee4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":687.8793051742832,\"y\":45.35467946204065,\"z\":6000,\"width\":124.7253685206118,\"height\":41.57512284020393,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.AVG PRICE DIFFERENCE\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"AVG PRICE DIFFERENCE\"},\"Name\":\"Car Sales.AVG PRICE DIFFERENCE\",\"NativeReferenceName\":\"AVG PRICE DIFFERENCE\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"AVG PRICE DIFFERENCE\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0}}}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 41.58,
+          "width": 124.73,
+          "x": 687.88,
+          "y": 45.35,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"0b736e77b18d6a599a46\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":47.142857142857146,\"z\":12000,\"width\":158.57142857142858,\"height\":57.142857142857146,\"tabOrder\":12000}}],\"singleVisualGroup\":{\"displayName\":\"Group 1\",\"groupMode\":0}}",
+          "height": 57.14,
+          "width": 158.57,
+          "x": 0.00,
+          "y": 47.14,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"19d2c458d90fbafcee2b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":687.8793051742832,\"y\":86.92980230224458,\"z\":5000,\"width\":234.3325105538767,\"height\":54.80357101663245,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.MTDAVGKPI\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"MTDAVGKPI\"},\"Name\":\"Car Sales.MTDAVGKPI\",\"NativeReferenceName\":\"MTDAVGKPI\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A21CB4'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 54.80,
+          "width": 234.33,
+          "x": 687.88,
+          "y": 86.93,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"2bfc7ee4c7c50538e906\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":175.71428571428572,\"z\":14000,\"width\":170,\"height\":50,\"tabOrder\":18000}}],\"singleVisual\":{\"visualType\":\"pageNavigator\",\"drillFilterOtherVisuals\":true,\"objects\":{\"layout\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 50.00,
+          "width": 170.00,
+          "x": 0.00,
+          "y": 175.71,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"4a23234b9134e18501c2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1035.7142857142858,\"y\":45.714285714285715,\"z\":9000,\"width\":112.85714285714286,\"height\":48.57142857142858,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.Car Sold Difference 1\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Car Sold Difference 1\"},\"Name\":\"Car Sales.Car Sold Difference 1\",\"NativeReferenceName\":\"Car Sold Difference 1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Car Sold Difference 1\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Conditional\":{\"Cases\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Car Sales\"}},\"Property\":\"Car Sold Difference Colour\"}},\"Right\":{\"Literal\":{\"Value\":\"'Red'\"}}},\"Annotations\":{\"PowerBI.SQExprEvaluationKind\":1,\"PowerBI.SQExprTextOperatorOption\":2}},\"Value\":{\"Literal\":{\"Value\":\"'#D90B1C'\"}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Car Sales\"}},\"Property\":\"Car Sold Difference Colour\"}},\"Right\":{\"Literal\":{\"Value\":\"'Green'\"}}},\"Annotations\":{\"PowerBI.SQExprEvaluationKind\":1,\"PowerBI.SQExprTextOperatorOption\":2}},\"Value\":{\"Literal\":{\"Value\":\"'#09F530'\"}}}]}}}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000D\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 48.57,
+          "width": 112.86,
+          "x": 1035.71,
+          "y": 45.71,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"4da565f6e9736ba2f26b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":74.28571428571429,\"height\":57.142857142857146,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Sales\",\"textStyle\":{\"fontSize\":\"12pt\"}}]}]}}]}},\"parentGroupName\":\"b7c2881de80e9a321014\"}",
+          "filters": "[]",
+          "height": 57.14,
+          "width": 74.29,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"5c7a061f8f98e955928f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":170,\"y\":141.42857142857144,\"z\":19000,\"width\":1110,\"height\":445.7142857142857,\"tabOrder\":19000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.Car_id\"},{\"queryRef\":\"Car Sales.Date\"},{\"queryRef\":\"Car Sales.Customer Name\"},{\"queryRef\":\"Car Sales.Dealer_Name\"},{\"queryRef\":\"Car Sales.Company\"},{\"queryRef\":\"Car Sales.Color\"},{\"queryRef\":\"Car Sales.Model\"},{\"queryRef\":\"CALENDAR.Total Sales\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0},{\"Name\":\"c1\",\"Entity\":\"CALENDAR\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Car_id\"},\"Name\":\"Car Sales.Car_id\",\"NativeReferenceName\":\"Car_id\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Date\"},\"Name\":\"Car Sales.Date\",\"NativeReferenceName\":\"Date\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Customer Name\"},\"Name\":\"Car Sales.Customer Name\",\"NativeReferenceName\":\"Customer Name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Dealer_Name\"},\"Name\":\"Car Sales.Dealer_Name\",\"NativeReferenceName\":\"Dealer_Name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Company\"},\"Name\":\"Car Sales.Company\",\"NativeReferenceName\":\"Company\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Color\"},\"Name\":\"Car Sales.Color\",\"NativeReferenceName\":\"Color\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Model\"},\"Name\":\"Car Sales.Model\",\"NativeReferenceName\":\"Model\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"Total Sales\"},\"Name\":\"CALENDAR.Total Sales\",\"NativeReferenceName\":\"Total Sales\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 445.71,
+          "width": 1110.00,
+          "x": 170.00,
+          "y": 141.43,
+          "z": 19000.00
+        },
+        {
+          "config": "{\"name\":\"7087d0ff8429778da032\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":480.00000000000006,\"z\":17000,\"width\":170,\"height\":70,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.Transmission\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Transmission\"},\"Name\":\"Car Sales.Transmission\",\"NativeReferenceName\":\"Transmission\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.4}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 70.00,
+          "width": 170.00,
+          "x": 0.00,
+          "y": 480.00,
+          "z": 17000.00
+        },
+        {
+          "config": "{\"name\":\"71d400b9ab780dd72f54\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":587.1428571428572,\"z\":18000,\"width\":170,\"height\":75.71428571428572,\"tabOrder\":17000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.Engine\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Engine\"},\"Name\":\"Car Sales.Engine\",\"NativeReferenceName\":\"Engine\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.4}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 75.71,
+          "width": 170.00,
+          "x": 0.00,
+          "y": 587.14,
+          "z": 18000.00
+        },
+        {
+          "config": "{\"name\":\"741f760f97b7a17e24df\",\"layouts\":[{\"id\":0,\"position\":{\"x\":74.28571428571429,\"y\":0.40816326530611086,\"z\":1000,\"width\":84.28571428571429,\"height\":57.142857142857146,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Insight\",\"textStyle\":{\"fontSize\":\"12pt\",\"color\":\"#12239e\"}}]}]}}]}},\"parentGroupName\":\"b7c2881de80e9a321014\"}",
+          "filters": "[]",
+          "height": 57.14,
+          "width": 84.29,
+          "x": 74.29,
+          "y": 0.41,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"7d3f6100d29b30e4e833\",\"layouts\":[{\"id\":0,\"position\":{\"x\":325.041869477958,\"y\":86.92980230224458,\"z\":3000,\"width\":222.99384068836653,\"height\":54.80357101663245,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.MTD KPI\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"MTD KPI\"},\"Name\":\"Car Sales.MTD KPI\",\"NativeReferenceName\":\"MTD KPI\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A21CB4'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 54.80,
+          "width": 222.99,
+          "x": 325.04,
+          "y": 86.93,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"83179b40f9bbeff38b67\",\"layouts\":[{\"id\":0,\"position\":{\"x\":342.04987427622325,\"y\":45.35467946204065,\"z\":1000,\"width\":86.92980230224458,\"height\":54.80357101663245,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.SALESDIFFERENCE\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"SALESDIFFERENCE\"},\"Name\":\"Car Sales.SALESDIFFERENCE\",\"NativeReferenceName\":\"SALESDIFFERENCE\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"SALESDIFFERENCE\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0BE21D'\"}}}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 54.80,
+          "width": 86.93,
+          "x": 342.05,
+          "y": 45.35,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"848b0f9925f04bea6490\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":360,\"z\":16000,\"width\":170,\"height\":55.714285714285715,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.Dealer_Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Dealer_Name\"},\"Name\":\"Car Sales.Dealer_Name\",\"NativeReferenceName\":\"Dealer_Name\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.4}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 55.71,
+          "width": 170.00,
+          "x": 0.00,
+          "y": 360.00,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"95343b992f9280e7e5ea\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.714285714285714,\"y\":115.71428571428572,\"z\":13000,\"width\":150,\"height\":50,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Menu\",\"textStyle\":{\"fontSize\":\"12pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 50.00,
+          "width": 150.00,
+          "x": 5.71,
+          "y": 115.71,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"95d5344fd41bedc0eb6e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":561.264158342753,\"y\":54.80357101663245,\"z\":4000,\"width\":153.07204318438718,\"height\":86.92980230224458,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.YTDATEAVERAGEPRICE\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Average Price\"},\"Name\":\"Car Sales.YTDATEAVERAGEPRICE\",\"NativeReferenceName\":\"YTD Average Price\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTD Average Price\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'YTD Average Price'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 86.93,
+          "width": 153.07,
+          "x": 561.26,
+          "y": 54.80,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"9c13680fdaf4ae5d8912\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":255.71428571428572,\"z\":15000,\"width\":170,\"height\":61.42857142857143,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.Body Style\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Body Style\"},\"Name\":\"Car Sales.Body Style\",\"NativeReferenceName\":\"Body Style\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.4}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 61.43,
+          "width": 170.00,
+          "x": 0.00,
+          "y": 255.71,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"9f72922b87beb73718ff\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1148.5714285714287,\"y\":47.142857142857146,\"z\":10000,\"width\":118.57142857142858,\"height\":45.714285714285715,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.Car Sold %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Car Sold %\"},\"Name\":\"Car Sales.Car Sold %\",\"NativeReferenceName\":\"Car Sold %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Car Sold %\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Conditional\":{\"Cases\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Car Sales\"}},\"Property\":\"Car Sold Difference Colour\"}},\"Right\":{\"Literal\":{\"Value\":\"'Red'\"}}},\"Annotations\":{\"PowerBI.SQExprEvaluationKind\":1,\"PowerBI.SQExprTextOperatorOption\":2}},\"Value\":{\"Literal\":{\"Value\":\"'#D90B1C'\"}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Car Sales\"}},\"Property\":\"Car Sold Difference Colour\"}},\"Right\":{\"Literal\":{\"Value\":\"'Green'\"}}},\"Annotations\":{\"PowerBI.SQExprEvaluationKind\":1,\"PowerBI.SQExprTextOperatorOption\":2}},\"Value\":{\"Literal\":{\"Value\":\"'#09F530'\"}}}]}}}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000D\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 45.71,
+          "width": 118.57,
+          "x": 1148.57,
+          "y": 47.14,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"a56a126f85689f562445\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1035.7142857142858,\"y\":87.14285714285715,\"z\":11000,\"width\":231.42857142857144,\"height\":54.28571428571429,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.PYTD Car Sold KPI\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"PYTD Car Sold KPI\"},\"Name\":\"Car Sales.PYTD Car Sold KPI\",\"NativeReferenceName\":\"PYTD Car Sold KPI\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A21CB4'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 54.29,
+          "width": 231.43,
+          "x": 1035.71,
+          "y": 87.14,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"b7c2881de80e9a321014\",\"layouts\":[{\"id\":0,\"position\":{\"height\":57.551020408163254,\"width\":158.57142857142858,\"x\":0,\"y\":0,\"z\":16004,\"tabOrder\":16003}}],\"singleVisualGroup\":{\"displayName\":\"Group 2\",\"groupMode\":0},\"parentGroupName\":\"0b736e77b18d6a599a46\"}",
+          "height": 57.55,
+          "width": 158.57,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 16004.00
+        },
+        {
+          "config": "{\"name\":\"d81e0cfe2a91db4f0ebd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":170.08004798265245,\"y\":58.58312763846917,\"z\":0,\"width\":171.9698262935708,\"height\":83.15024568040786,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"CALENDAR.YTDSALES\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"CALENDAR\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTDSALES\"},\"Name\":\"CALENDAR.YTDSALES\",\"NativeReferenceName\":\"YTDSALES\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YTDSALES\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Year to Date Sales'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 83.15,
+          "width": 171.97,
+          "x": 170.08,
+          "y": 58.58,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"d97c295d8bae4511b905\",\"layouts\":[{\"id\":0,\"position\":{\"x\":805.7142857142858,\"y\":45.714285714285715,\"z\":7000,\"width\":101.42857142857143,\"height\":38.57142857142858,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.AVG Price %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"AVG Price %\"},\"Name\":\"Car Sales.AVG Price %\",\"NativeReferenceName\":\"AVG Price %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"AVG Price %\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0}}}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 38.57,
+          "width": 101.43,
+          "x": 805.71,
+          "y": 45.71,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"f1912ad877edbb33a6c7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":428.97967657846783,\"y\":45.35467946204065,\"z\":2000,\"width\":105.82758541142819,\"height\":54.80357101663245,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Car Sales.YEARONYEARGROTH\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Car Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YEARONYEARGROTH\"},\"Name\":\"Car Sales.YEARONYEARGROTH\",\"NativeReferenceName\":\"YEARONYEARGROTH\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"YEARONYEARGROTH\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0BE21D'\"}}}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 54.80,
+          "width": 105.83,
+          "x": 428.98,
+          "y": 45.35,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

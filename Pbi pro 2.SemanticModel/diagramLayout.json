@@ -1,0 +1,48 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 98.3969111969113,
+            "y": 84.301158301158338
+          },
+          "nodeIndex": "Car Sales",
+          "nodeLineageTag": "8479feba-bd80-4669-920b-2a465e57cb1d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 540.16781809449674,
+            "y": 118.07722007722012
+          },
+          "nodeIndex": "CALENDAR",
+          "nodeLineageTag": "46d576ad-5ddc-44e2-bab3-35f8b70a92a7",
+          "size": {
+            "height": 422.17142857142858,
+            "width": 234
+          },
+          "zIndex": 2
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 74,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
